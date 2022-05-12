@@ -8,8 +8,6 @@ class Post(models.Model):
         verbose_name = "Post"
         verbose_name_plural = "Postlar"
 
-
-
     name = models.CharField(max_length=50)  
     price = models.IntegerField()
     info = models.TextField()

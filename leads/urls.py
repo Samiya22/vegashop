@@ -4,6 +4,6 @@ from .views import *
 
 urlpatterns = [
     path('', home),
-    path('header/', header),
+    path('header/', body),
 
 ]
